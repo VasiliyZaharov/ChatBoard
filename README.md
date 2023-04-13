@@ -50,6 +50,10 @@
 ```bash
 git clone https://github.com/VasiliyZaharov/ChatBoard
 ```
+После загрузки проваливаемся в проект
+```bash
+cd ChatBoard/prjchat
+```
 
 Генерируем секретный ключ Django
 ```bash
@@ -64,8 +68,11 @@ SECRET_KEY = ''
 В каталоге ChatBoard запустите и настройте виртуальную среду
 ```bash
 python -m venv venvCB
+```
+```bash
 venvCB\scripts\activate
-cd .\ChatBoard\ 
+```
+```bash
 pip install -r requirements.txt
 ```
 
